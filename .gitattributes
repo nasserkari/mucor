@@ -1,0 +1,15 @@
+# Default text files to LF
+* text=auto eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.zsh text eol=lf
+*.bash text eol=lf
+*.fish text eol=lf
+./bin/* text eol=lf
+
+# Debian packaging scripts
+debian/* text eol=lf
+
+# Makefile
+Makefile text eol=lf
