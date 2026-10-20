@@ -1,0 +1,70 @@
+.TH MUCOR 1 "October 2026" "mucor 0.1.0" "User Commands"
+.SH NAME
+mucor \- a minimal Debian package template
+.SH SYNOPSIS
+.B mucor
+.RI [ OPTION ]
+.SH DESCRIPTION
+.B mucor
+is a minimal Debian package template.
+
+.PP
+When invoked without arguments,
+.B mucor
+displays its usage information.
+Exactly one option may be provided per invocation.
+.SH OPTIONS
+.TP
+.BR \-h ", " \-\-help
+Display the usage message, available options, and bug-reporting URL.
+.TP
+.BR \-v ", " \-\-version
+Display the program name and version.
+.SH EXAMPLES
+.TP
+.B mucor
+Display the usage information.
+.TP
+.B mucor \-\-help
+Display the help message.
+.TP
+.B mucor \-h
+Display the help message using the short option.
+.TP
+.B mucor \-\-version
+Display the version information.
+.TP
+.B mucor \-v
+Display the version using the short option.
+.SH ERRORS
+.B mucor
+reports an error when more than one argument is provided
+or when an unrecognized option is supplied.
+.PP
+When an error occurs, consult the help message for the
+supported options.
+.SH EXIT STATUS
+The command returns successfully when the help or version
+option is handled successfully.
+.PP
+The exit status for invalid arguments depends on the
+error-handling implementation in the installed script.
+.SH ENVIRONMENT
+No environment variables are required by the documented
+command-line interface.
+.SH BUGS
+Report bugs, request features, or submit issue reports at:
+.PP
+.UR https://github.com/nasserkari/mucor/issues
+https://github.com/nasserkari/mucor/issues
+.UE
+.SH AUTHOR
+Nasser Karinganire
+.MT nasserkarix@gmail.com
+nasserkarix@gmail.com
+.ME
+.SH COPYRIGHT
+Copyright \(co 2026 Nasser Karinganire.
+.PP
+License information is provided with the Mucor source
+distribution.
