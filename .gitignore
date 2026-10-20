@@ -1,0 +1,45 @@
+# package build artifacts
+*.deb
+*.changes
+*.build
+*.buildinfo
+*.dsc
+*.tar.*
+*.diff.gz
+
+# Temporary files
+*~
+*.swp
+*.bak
+*.orig
+*.tmp
+*.temp
+
+# Editor and IDE settings
+.vscode/
+.idea/
+.zed/
+
+# Logs
+*.log
+logs/
+
+# Test and coverage output
+/coverage/
+*.tap
+
+# Cache
+.cache/
+.cache-*/
+
+# Debian package build artifacts
+debian/files
+debian/mucor/
+debian/.debhelper/
+debian/*.substvars
+debian/debhelper-build-stamp
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
