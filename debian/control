@@ -1,0 +1,12 @@
+Source: mucor
+Section: utils
+Priority: optional
+Maintainer: Nasser Karinganire <nasserkarix@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 0.1.0
+Rules-Requires-Root: no
+
+Package: mucor
+Architecture: all
+Depends: ${misc:Depends}
+Description: a minimal Debian package template
