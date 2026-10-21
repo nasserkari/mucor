@@ -98,3 +98,10 @@ To remove the package and its system configuration files, if any:
 ```bash
 sudo apt purge mucor
 ```
+
+## References
+
+- [GNU make manuals](https://www.gnu.org/software/make/manual/)
+- [Debian policy manual](https://www.debian.org/doc/debian-policy/)
+- [Groff man(7) documentation](https://manpages.debian.org/trixie/groff/groff_man.7.en.html)
+- [Debian new maintainers' Guide](https://www.debian.org/doc/manuals/maint-guide/)
