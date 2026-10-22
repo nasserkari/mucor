@@ -1,0 +1,45 @@
+# Global fallback: everything not listed below
+* @nasserkari
+
+# Debian packaging metadata
+/debian/                    @nasserkari
+/debian/control             @nasserkari
+/debian/rules               @nasserkari
+/debian/changelog           @nasserkari
+/debian/copyright           @nasserkari
+/debian/patches/            @nasserkari
+/debian/watch               @nasserkari
+/debian/source/             @nasserkari
+/debian/tests/              @nasserkari
+
+# Source code
+/src/                       @nasserkari
+/bin/                       @nasserkari
+/lib/                       @nasserkari
+
+# Man pages and shell completions
+/man/                       @nasserkari
+/completions/               @nasserkari
+
+# Config files shipped with the package
+/etc/                       @nasserkari
+/config/                    @nasserkari
+
+# Repo dotfiles and settings
+/.gitignore                 @nasserkari
+/.gitattributes             @nasserkari
+/.editorconfig              @nasserkari
+/.shellcheckrc              @nasserkari
+
+# Build and release automation
+/.github/                   @nasserkari
+/Makefile                   @nasserkari
+/scripts/                   @nasserkari
+
+# Tests
+/tests/                     @nasserkari
+
+# Documentation and legal
+/docs/                      @nasserkari
+/README.md                  @nasserkari
+/LICENSE                    @nasserkari
