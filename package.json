@@ -2,7 +2,13 @@
   "name": "mucor",
   "version": "0.1.0",
   "description": "A minimal Debian package template",
-  "author": "Nasser Karinganire",
+  "contributors": [
+    {
+      "name": "Nasser Karinganire",
+      "email": "nasserkarix@gmail.com",
+      "url": "https://github.com/nasserkari"
+    }
+  ],
   "license": "MIT",
   "homepage": "https://github.com/nasserkari/mucor#readme",
   "bugs": {
